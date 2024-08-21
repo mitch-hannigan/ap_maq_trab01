@@ -10,7 +10,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from sklearn.utils import shuffle
-max_iters=1
+max_iters=20
 def soma(cf1, cf2, cf3, cf4, cf5, atributos):
     proba_cf1 = cf1.predict_proba(atributos)
     proba_cf2 = cf2.predict_proba(atributos)
