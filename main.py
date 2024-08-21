@@ -11,3 +11,5 @@ from sklearn.metrics import accuracy_score
 data, meta = arff.loadarff('Rice_Cammeo_Osmancik.arff')
 df = pd.DataFrame(data)
 
+for i in range(1):
+    train_test_split
